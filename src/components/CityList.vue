@@ -44,7 +44,7 @@ const goToCityView = city => {
       state: city.state,
       city: city.city,
     },
-    query: { lat: city.coords.lat, lon: city.coords.lon },
+    query: { id: city.id, lat: city.coords.lat, lon: city.coords.lon },
   });
 };
 </script>

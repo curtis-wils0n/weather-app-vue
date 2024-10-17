@@ -58,7 +58,7 @@
 import { ref } from 'vue';
 import { uid } from 'uid';
 import { RouterLink, useRoute, useRouter } from 'vue-router';
-import BaseModal from './BaseModal.vue';
+import BaseModal from '@/components/BaseModal.vue';
 
 const modalActive = ref(null);
 const toggleModal = () => {

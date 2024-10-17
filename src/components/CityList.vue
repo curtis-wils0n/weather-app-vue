@@ -10,7 +10,7 @@
 <script setup>
 import axios from 'axios';
 import { ref } from 'vue';
-import CityCard from './CityCard.vue';
+import CityCard from '@/components/CityCard.vue';
 import { useRouter } from 'vue-router';
 
 const savedCities = ref([]);
